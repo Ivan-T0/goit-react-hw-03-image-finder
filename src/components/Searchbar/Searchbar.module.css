@@ -1,0 +1,31 @@
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: darkblue;
+    max-height: 30vh;
+    margin-bottom: 20px;
+}
+.input{
+    height: 30px;
+    width: 300px;
+}
+.button{
+    height: 30px;
+    cursor: pointer;
+    background-color: white;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: blueviolet;
+}
+.button_label{
+    color: black;
+    
+}
+.form{
+    display: flex;
+        align-items: center;
+}

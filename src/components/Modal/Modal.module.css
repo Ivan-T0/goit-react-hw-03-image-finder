@@ -1,0 +1,29 @@
+.modal {
+    position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1999;
+}
+
+.modal_backdrop {
+   
+    max-width:80%;
+    max-height: 80%;
+    overflow: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.modal_content {
+    max-width: 100%;
+    max-height: 100vh;
+  
+    overflow: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

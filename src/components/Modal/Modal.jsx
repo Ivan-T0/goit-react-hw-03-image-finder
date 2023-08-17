@@ -29,7 +29,7 @@ export default class Modal extends Component {
     return (
       <div className={cl.modal}>
         <div className={cl.modal_backdrop} onClick={this.handleBackdropClick}>
-          <img src={imageUrl} alt="Large"  max-width='800' max-height='900'/>
+          <img src={imageUrl} alt="Large"  />
         </div>
       </div>
     );

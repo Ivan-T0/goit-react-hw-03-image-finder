@@ -12,18 +12,14 @@
 }
 
 .modal_backdrop {
-   
-    max-width:80%;
-    max-height: 80%;
-    overflow: auto;
+    max-width:90%;
+    max-height: 90%;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 .modal_content {
     max-width: 100%;
     max-height: 100vh;
-  
-    overflow: auto;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
